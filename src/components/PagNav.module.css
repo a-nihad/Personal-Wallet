@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  background-color: white;
+}
+.nav div{
+  display: flex;
+  gap: 4rem;
+}
+.nav h1 {
+  color: var(--brand);
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: var(--gray);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav a:global(.active) {
+  color: var(--black);
+}
+
+.nav button {
+  padding: 10px 20px;
+  width: max-content;
+}

@@ -1,0 +1,47 @@
+.create {
+  width: 70%;
+  background-color: white;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 80px;
+  padding: 100px 50px 100px 100px;
+}
+.create section {
+  flex-basis: 50%;
+}
+.create img {
+  width: 100%;
+}
+.create form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.create div {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 1rem;
+  border: 1px solid var(--blue);
+}
+.create span {
+  width: 30px;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--blue);
+}
+.create input {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 15px 10px;
+}
+
+.create h2 {
+  color: var(--blue);
+}

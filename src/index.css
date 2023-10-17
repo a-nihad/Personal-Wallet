@@ -1,0 +1,85 @@
+@import "https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;400;500;700;900&family=Yeseva+One&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --blue: #12578f;
+  --white: rgb(250, 251, 252);
+  --black: rgb(53, 64, 81);
+  --gray: #7f8ea4;
+  --brand: #04a970;
+}
+
+html {
+  height: 100vh;
+  font-size: 65%;
+  background-color: #eff0f2;
+  color: var(--black);
+  font-family: "Roboto";
+}
+
+button {
+  border: none;
+  width: 100%;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-weight: 100;
+  background-color: var(--brand);
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+}
+
+aside {
+  width: 25%;
+  min-height: 75vh;
+  padding: 30px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 0.8rem;
+}
+
+.blur {
+  filter: blur(5px);
+}
+
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+h4 {
+  font-size: 2rem;
+}
+
+.page {
+  width: 90%;
+  display: flex;
+  gap: 30px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.leftSide {
+  width: 25%;
+}
+
+.rightSide {
+  width: 75%;
+}
+
+.expense{
+  color: rgb(246, 76, 76);
+}
+.income{
+  color: var(--brand);
+}

@@ -1,0 +1,41 @@
+.adding {
+  width: 500px;
+  background-color: white;
+  padding: 0 4rem;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.adding header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.adding span {
+  font-size: 2rem;
+  color: var(--blue);
+  cursor: pointer;
+}
+.adding form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0 4rem;
+  gap: 10px;
+}
+.adding div {
+  display: flex;
+  flex-direction: column;
+}
+.adding input,
+select {
+  padding: 10px;
+  border-radius: 1rem;
+  border: 1px solid var(--blue);
+  outline: none;
+}
+.adding label {
+  font-size: 1.6rem;
+  padding: 5px 0;
+}

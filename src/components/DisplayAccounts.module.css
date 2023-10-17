@@ -1,0 +1,43 @@
+.dashboard {
+  padding: 30px 50px;
+  background-color: white;
+  border-top: 1px solid #dddfe4;
+}
+.dashboard ul {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.dashboard li {
+  display: flex;
+  flex-basis: 24%;
+  padding: 1rem;
+  color: white;
+  background-color: cornflowerblue;
+  border-radius: 1rem;
+}
+.dashboard span {
+  display: flex;
+  font-size: 2rem;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+}
+.dashboard p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.dashboard h4 {
+  font-size: 1.6rem;
+}
+
+.dashboard :link {
+  flex-basis: 24%;
+}
+
+.dashboard button {
+  padding: 1.8rem;
+  color: var(--gray);
+  background-color: transparent;
+  border: 2px dotted var(--gray);
+  border-radius: 1rem;
+}
